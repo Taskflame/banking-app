@@ -1,2 +1,24 @@
-# banking-app
-console banking application written in Java
+# 🏦 Java Banking App
+
+Полноценное консольное банковское приложение на Java с подключением к PostgreSQL.
+
+## 🚀 Возможности
+- Создание счетов (Personal / Business / VIP)
+- Переводы между счетами
+- Логирование всех транзакций в БД
+- Валидация пользовательского ввода через SafeInput
+
+## 🧩 Технологии
+- Java 17+
+- PostgreSQL 15+
+- JDBC
+- Maven
+
+---
+
+## ⚙️ Настройка и запуск
+
+### 1️⃣ Создать базу данных (в schema.sql лежит код базы данных)
+```sql
+CREATE DATABASE bank_db;
+
