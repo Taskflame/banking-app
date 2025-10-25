@@ -1,0 +1,24 @@
+# =========================
+# Java + Maven + IntelliJ
+# =========================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Maven build
+target/
+out/
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+
+# Environment / local configs
+.env
+
+# Optional backups
+*.bak
+*.tmp
